@@ -125,6 +125,7 @@ button{
   @media (max-height: 600px) {
     .quoteApp{
       width: max-content;
+      min-width: 70%;
       height: auto;
       max-width: 95%;
       gap: .5rem;
