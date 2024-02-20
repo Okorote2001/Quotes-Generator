@@ -120,7 +120,20 @@ button{
     .quoteApp{
       width: 90%;
     }
-  }
+
+    button{
+        &:hover{
+            transform: none;
+            margin-inline: .3rem; 
+        }
+    
+        &:active{
+            transform: scale(90%, 90%);
+            margin-inline: .1rem;
+        }
+    }
+}
+
 
   @media (max-height: 600px) {
     .quoteApp{
